@@ -1,1 +1,112 @@
 
+E-COMMERCE APPLICATION BUG REPORT
+================================
+
+BUG_001: Login fails with correct data
+-------------------------------------
+Severity: Major
+Priority: High
+Status: Open
+
+Steps to Reproduce:
+1. Go to login page
+2. Enter valid credentials
+3. Click Login button
+
+Expected Result:
+- User should be redirected to dashboard after successful login
+
+Actual Result:
+- Error message "Invalid credentials" is shown despite using correct credentials
+
+Screenshot: [Attach screenshot]
+
+BUG_002: Cart icon misaligned
+----------------------------
+Severity: Minor
+Priority: Low
+Status: Open
+
+Steps to Reproduce:
+1. Open homepage
+2. Observe cart icon in navigation bar
+
+Expected Result:
+- Cart icon should be properly aligned with other navigation elements
+
+Actual Result:
+- Cart icon overlaps with the logo
+
+Screenshot: [Attach screenshot]
+
+BUG_003: Add to cart doesn't work
+--------------------------------
+Severity: Critical
+Priority: High
+Status: Open
+
+Steps to Reproduce:
+1. Navigate to any product page
+2. Click "Add to Cart" button
+
+Expected Result:
+- Selected item should be added to cart
+- Cart count should increment
+- Success message should appear
+
+Actual Result:
+- No action occurs when clicking the button
+- Cart remains empty
+- No feedback provided to user
+
+Screenshot: [Attach screenshot]
+
+BUG_004: Checkout button text cut off
+------------------------------------
+Severity: Minor
+Priority: Medium
+Status: Open
+
+Steps to Reproduce:
+1. Add items to cart
+2. Navigate to cart page
+3. View checkout button
+
+Expected Result:
+- Checkout button text should be fully visible
+- Button should be properly sized
+
+Actual Result:
+- Button text is cropped/truncated
+- Text is not fully readable
+
+Screenshot: [Attach screenshot]
+
+BUG_005: Password not masked
+---------------------------
+Severity: Major
+Priority: High
+Status: Open
+
+Steps to Reproduce:
+1. Navigate to registration page
+2. Locate password input field
+3. Type password
+
+Expected Result:
+- Password characters should be masked (shown as dots or asterisks)
+- Input should be secure
+
+Actual Result:
+- Password characters appear as plain text
+- Security vulnerability as password is visible
+
+Screenshot: [Attach screenshot]
+
+Notes:
+------
+- All bugs were discovered during functional testing
+- Screenshots should be attached for each bug
+- Reproduction steps should be followed exactly as described
+- Environment: Chrome browser (latest version), Windows 10/11
+- Test data used: Standard test credentials and sample products 
