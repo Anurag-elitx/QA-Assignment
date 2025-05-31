@@ -1,0 +1,84 @@
+E-COMMERCE APPLICATION TEST PLAN
+================================
+
+1. OBJECTIVE
+-----------
+To verify and validate the core shopping functionality of the e-commerce application, ensuring a seamless user experience from product search to checkout process.
+
+2. SCOPE
+-------
+Features to be tested:
+- Homepage accessibility and navigation
+- Product search functionality
+- Product listing and selection
+- Shopping cart operations
+- Checkout process (up to sign-in)
+- Basic UI elements and responsiveness
+
+3. OUT OF SCOPE
+--------------
+- User registration and login
+- Payment processing
+- Order confirmation and tracking
+- User profile management
+- Wishlist functionality
+- Product reviews and ratings
+- Social media integration
+- Email notifications
+- Mobile app testing
+- Performance testing
+- Security testing
+- API testing
+
+4. RESOURCES
+-----------
+Hardware Requirements:
+- Windows 10/11 PC
+- Minimum 8GB RAM
+- Stable internet connection
+
+Software Requirements:
+- Java JDK 11 or higher
+- Maven
+- Chrome Browser (latest version)
+- Selenium WebDriver
+- TestNG Framework
+- WebDriverManager
+
+5. RISKS AND ASSUMPTIONS
+-----------------------
+Risks:
+- Website structure changes may break existing locators
+- Network connectivity issues
+- Browser version compatibility
+- Dynamic content loading affecting test stability
+- Captcha or security measures blocking automated tests
+
+Assumptions:
+- Test environment is stable and accessible
+- Test data (products) are available
+- Website is responsive and functional
+- No major UI changes during test execution
+- Test environment mirrors production behavior
+
+6. TEST ENVIRONMENT
+------------------
+- Browser: Chrome (latest version)
+- Operating System: Windows 10/11
+- Screen Resolution: 1920x1080 (minimum)
+- Network: Stable internet connection
+
+7. TEST EXECUTION
+----------------
+- Tests will be executed using TestNG framework
+- Execution can be triggered via Maven or TestNG XML
+- Reports will be generated automatically
+- Failed tests will be logged with screenshots
+
+8. SUCCESS CRITERIA
+------------------
+- All test cases execute successfully
+- No false positives in test results
+- Proper error handling and reporting
+- Clean test execution logs
+- Successful navigation through the complete shopping flow 
